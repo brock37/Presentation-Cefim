@@ -54,6 +54,7 @@ header a:hover, .Social a:hover{
   font-size: 46px;
   text-decoration: none;
   color: #fff;
+  transition: 1s;
 }
 
 .Container{
