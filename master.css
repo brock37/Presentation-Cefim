@@ -1,4 +1,70 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
+}
+
+header{
+  height: 100px;
+  background: #00A6FF;
+  padding: 0 20px;
+  color: #fff;
+}
+
+header h1{
+  float: right;
+  line-height: 100px;
+}
+
+header ul{
+  line-height: 100px;
+}
+
+header li{
+  list-style-type: none;
+  display: inline;
+  text-transform: uppercase;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: .7s;
+}
+header a:hover, .Social a:hover{
+  color: #050F5C;
+}
+
+.Social{
+  float: right;
+  position: sticky;
+  top: 120px;
+  margin-right: 10px;
+  padding: 5px;
+  background: #00A6FF;
+  border-radius: 10px;
+  transition: .7s;
+}
+
+.Social li{
+  list-style-type: none;
+}
+
+.Social a{
+  font-size: 46px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Container{
+  margin: 100px;
+  padding: 20px;
+  background: rgba(13, 255, 209, 0.5);
+  border-radius: 40px;
+}
+
+.Container li {
+  display: inline;
+  list-style-type: none;
+  text-transform: uppercase;
 }
