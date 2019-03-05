@@ -57,6 +57,10 @@ header a:hover, .Social a:hover{
   transition: 1s;
 }
 
+input[type=radio]{
+   display:none;
+}
+
 .Container{
   position: relative;
   width: 900px;
