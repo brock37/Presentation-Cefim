@@ -73,3 +73,36 @@ header a:hover, .Social a:hover{
   list-style-type: none;
   text-transform: uppercase;
 }
+/************************
+*****ACTIONS*************
+************************/
+
+#first_check:checked~ #Path{
+  z-index: 999;
+}
+#first_check:checked~ #Studies{
+  z-index: 0;
+}
+#first_check:checked~ #Experience{
+  z-index: 0;
+}
+
+#second_check:checked~ #Path{
+  z-index: 0;
+}
+#second_check:checked~ #Studies{
+  z-index: 999;
+}
+#second_check:checked~ #Experience{
+  z-index: 0;
+}
+
+#third_check:checked~ #Path{
+  z-index: 0;
+}
+#third_check:checked~ #Studies{
+  z-index: 0;
+}
+#third_check:checked~ #Experience{
+  z-index: 999;
+}
