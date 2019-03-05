@@ -72,9 +72,16 @@ input[type=radio]{
 }
 
 .Container li {
-  display: inline;
+  margin-right: 0;
+  padding: 10px 30px;
+  display: inline-block;
   list-style-type: none;
+  background-color: #adadad;
+  border-top: 1px #fff solid;
+  border-right: #bdbdbd 1px solid;
   text-transform: uppercase;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .Container label{
