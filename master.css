@@ -63,12 +63,10 @@ input[type=radio]{
 
 .Container{
   position: relative;
-  width: 900px;
-  height: 400px;
+  min-width: 900px;
+  min-height: 200px;
   display: block;
   margin: 50px 100px 0 25px;
-  background-color: rgba(13, 255, 209, .1);
-  border-radius: 40px;
 }
 
 .Container li {
