@@ -58,9 +58,9 @@ header a:hover, .Social a:hover{
 }
 
 .Container{
-  margin: 100px;
+  margin: 50px 100px 0 25px;
   padding: 20px;
-  background: rgba(13, 255, 209, 0.5);
+  background-color: rgba(13, 255, 209, .1);
   border-radius: 40px;
 }
 
