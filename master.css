@@ -73,6 +73,9 @@ header a:hover, .Social a:hover{
   list-style-type: none;
   text-transform: uppercase;
 }
+.Container label{
+    cursor: pointer;
+}
 /************************
 *****ACTIONS*************
 ************************/
