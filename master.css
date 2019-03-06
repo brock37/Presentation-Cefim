@@ -107,31 +107,25 @@ article{
 ************************/
 
 #first_check:checked~ #Path{
-  z-index: 999;
-}
-#first_check:checked~ #Studies{
-  z-index: 0;
-}
-#first_check:checked~ #Experience{
-  z-index: 0;
+  display: block;
 }
 
-#second_check:checked~ #Path{
-  z-index: 0;
-}
 #second_check:checked~ #Studies{
-  z-index: 999;
-}
-#second_check:checked~ #Experience{
-  z-index: 0;
+  display: block;
 }
 
-#third_check:checked~ #Path{
-  z-index: 0;
-}
-#third_check:checked~ #Studies{
-  z-index: 0;
-}
 #third_check:checked~ #Experience{
-  z-index: 999;
+  display: block;
+}
+
+#Code_check:checked~ #Code{
+  display: block;
+}
+
+#Warhammer_check:checked~ #Warhammer{
+  display: block;
+}
+
+#Nba_check:checked~ #Nba{
+  display: block;
 }
