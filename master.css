@@ -76,25 +76,31 @@ input[type=radio]{
   margin: 50px 100px 100px 25px;
 }
 
-.Container .tabs li {
-  margin-right: 0;
+/*.Container .tabs{
+  position: relative;
+  left: -40px;
+  margin-bottom: 0;
+  background: #000;
+}*/
+
+.Container label {
+  display: block;
+  float: left;
+  width: 23%;
   padding: 10px 30px;
-  display: inline-block;
-  list-style-type: none;
   background: #fff;
   border-top: #bdbdbd 1px solid;
   border-right: #bdbdbd 1px solid;
   border-left: #bdbdbd 1px solid;
-  text-transform: uppercase;
-  color: #00A6FF;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  text-transform: uppercase;
+  color: #00A6FF;
+  text-align: center;
+  cursor: pointer;
+  transition: .7s;
 }
 
-.Container label{
-    cursor: pointer;
-    transition: .7s;
-}
 
 .Content{
   position: absolute;
@@ -134,9 +140,9 @@ header a:hover,
   display: block;
 }
 
-#Path_check:checked~ ul li[id^="Path"],
-#Studies_check:checked~ ul li[id^="Studies"],
-#Experience_check:checked~ ul li[id^="Experience"],
+#Path_check:checked + label,
+#Studies_check:checked + label,
+#Experience_check:checked + label,
 #Code_check:checked~ ul li[id^="Code"],
 #Warhammer_check:checked~ ul li[id^="Warhammer"],
 #Nba_check:checked~ ul li[id^="Nba"]{
