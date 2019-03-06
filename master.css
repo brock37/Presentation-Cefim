@@ -74,7 +74,7 @@ input[type=radio]{
   min-width: 900px;
   height: 400px;
   display: block;
-  margin: 50px 100px 0 25px;
+  margin: 50px 100px 100px 25px;
 }
 
 .Container li {
