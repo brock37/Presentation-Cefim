@@ -73,16 +73,18 @@ input[type=radio]{
   padding: 10px 30px;
   display: inline-block;
   list-style-type: none;
-  background-color: #fff;
-  border-top: 1px #fff solid;
+  background: rgba(0, 166, 255, .5);
+  border-top: 1px #bdbdbd solid;
   border-right: #bdbdbd 1px solid;
   text-transform: uppercase;
+  color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .Container label{
     cursor: pointer;
+    transition: .7s;
 }
 
 .Content{
@@ -90,7 +92,7 @@ input[type=radio]{
   height: 100%;
   width: 100%;
   overflow: auto;
-  background: rgba(0, 166, 255, .3);/*linear-gradient(0.25turn, #C8FFD1,#ffffff,#C8FFD1);*/
+  background: rgba(0, 166, 255, .5);/*linear-gradient(0.25turn, #C8FFD1,#ffffff,#C8FFD1);*/
   padding: 0;
   border-radius: 20px;
   border-top-left-radius: 0;
