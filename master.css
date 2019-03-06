@@ -82,11 +82,11 @@ input[type=radio]{
   padding: 10px 30px;
   display: inline-block;
   list-style-type: none;
-  background: rgba(0, 166, 255, .5);
+  background: #fff;
   border-top: 1px #bdbdbd solid;
   border-right: #bdbdbd 1px solid;
   text-transform: uppercase;
-  color: #fff;
+  color: #00A6FF;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -101,7 +101,7 @@ input[type=radio]{
   height: 100%;
   width: 100%;
   overflow: auto;
-  background: rgba(0, 166, 255, .5);/*linear-gradient(0.25turn, #C8FFD1,#ffffff,#C8FFD1);*/
+  background: rgba(0, 166, 255);/*linear-gradient(0.25turn, #C8FFD1,#ffffff,#C8FFD1);*/
   padding: 0;
   border-radius: 20px;
   border-top-left-radius: 0;
