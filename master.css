@@ -116,7 +116,9 @@ article{
 /************************
 *****ACTIONS*************
 ************************/
-header a:hover, .Social a:hover, .Container label:hover{
+header a:hover,
+.Social a:hover,
+.Container label:hover{
   color: #050F5C;
 }
 
