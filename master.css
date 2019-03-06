@@ -31,9 +31,7 @@ header a{
   padding: 10px;
   transition: .7s;
 }
-header a:hover, .Social a:hover{
-  color: #050F5C;
-}
+
 
 .Social{
   float: right;
@@ -107,6 +105,9 @@ article{
 /************************
 *****ACTIONS*************
 ************************/
+header a:hover, .Social a:hover, .Container label:hover{
+  color: #050F5C;
+}
 
 #first_check:checked~ #Path,
 #second_check:checked~ #Studies,
