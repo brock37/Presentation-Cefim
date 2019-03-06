@@ -44,6 +44,7 @@ header a:hover, .Social a:hover{
   background: #00A6FF;
   border-radius: 10px;
   transition: .7s;
+  z-index: 999;
 }
 
 .Social li{
