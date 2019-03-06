@@ -75,7 +75,7 @@ input[type=radio]{
   padding: 10px 30px;
   display: inline-block;
   list-style-type: none;
-  background-color: #adadad;
+  background-color: #fff;
   border-top: 1px #fff solid;
   border-right: #bdbdbd 1px solid;
   text-transform: uppercase;
