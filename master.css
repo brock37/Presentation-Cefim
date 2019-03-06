@@ -111,7 +111,9 @@ input[type=radio]{
 
 article{
   height: 100%;
-  width: 100%;
+  width: 95%;
+  padding-left: 20px;
+  text-align: justify;
 }
 
 /************************
