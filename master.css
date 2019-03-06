@@ -108,26 +108,11 @@ article{
 *****ACTIONS*************
 ************************/
 
-#first_check:checked~ #Path{
-  display: block;
-}
-
-#second_check:checked~ #Studies{
-  display: block;
-}
-
-#third_check:checked~ #Experience{
-  display: block;
-}
-
-#Code_check:checked~ #Code{
-  display: block;
-}
-
-#Warhammer_check:checked~ #Warhammer{
-  display: block;
-}
-
+#first_check:checked~ #Path,
+#second_check:checked~ #Studies,
+#third_check:checked~ #Experience,
+#Code_check:checked~ #Code,
+#Warhammer_check:checked~ #Warhammer,
 #Nba_check:checked~ #Nba{
   display: block;
 }
