@@ -1,4 +1,4 @@
-*{
+html body{
   padding: 0;
   margin: 0;
   font-family: sans-serif;
@@ -18,10 +18,12 @@ header{
 header h1{
   float: right;
   line-height: 100px;
+  margin: 0;
 }
 
 header ul{
   line-height: 100px;
+  margin: 0;
 }
 
 header li{
@@ -70,10 +72,16 @@ input[type=radio]{
 
 .Container{
   position: relative;
-  min-width: 900px;
-  height: 400px;
   display: block;
-  margin: 50px 100px 100px 25px;
+  max-width: 95%;
+  min-height: auto;
+  /*margin: 50px 100px 100px 25px;*/
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  background: red;
+
 }
 
 /*.Container .tabs{
@@ -110,24 +118,34 @@ input[type=radio]{
 }*/
 
 .Content{
-  position: absolute;
-  height: 100%;
+  height: auto;
   width: 100%;
   overflow: auto;
-  background: rgba(0, 166, 255);/*linear-gradient(0.25turn, #C8FFD1,#ffffff,#C8FFD1);*/
+  background: rgba(0, 166, 255);
   padding: 0;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 0;
+  /*border-top-right-radius: 20px;*/
   display: none;
 }
 
 article{
-  height: 100%;
-  width: 95%;
+  height: auto;
+  width: auto;
   padding-left: 20px;
+  padding-right: 20px;
   text-align: justify;
+  background: green;
 }
+
+/************************
+*****STUDIES TAB*********
+************************/
+/*.Content li{
+  margin-left: 20px;
+}*/
+
 
 /************************
 *****ACTIONS*************
