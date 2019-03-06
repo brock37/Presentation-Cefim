@@ -95,6 +95,7 @@ input[type=radio]{
   padding: 0;
   border-radius: 20px;
   border-top-left-radius: 0;
+  display: none;
 }
 
 article{
