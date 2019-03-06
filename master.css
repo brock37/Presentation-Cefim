@@ -83,8 +83,9 @@ input[type=radio]{
   display: inline-block;
   list-style-type: none;
   background: #fff;
-  border-top: 1px #bdbdbd solid;
+  border-top: #bdbdbd 1px solid;
   border-right: #bdbdbd 1px solid;
+  border-left: #bdbdbd 1px solid;
   text-transform: uppercase;
   color: #00A6FF;
   border-top-left-radius: 10px;
