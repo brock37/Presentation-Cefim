@@ -166,9 +166,9 @@ header a:hover,
 #Path_check:checked + label,
 #Studies_check:checked + label,
 #Experience_check:checked + label,
-#Code_check:checked~ ul li[id^="Code"],
-#Warhammer_check:checked~ ul li[id^="Warhammer"],
-#Nba_check:checked~ ul li[id^="Nba"]{
+#Code_check:checked + label,
+#Warhammer_check:checked + label,
+#Nba_check:checked + label{
   background: rgba(0, 166, 255);
   color: #fff;
 }
