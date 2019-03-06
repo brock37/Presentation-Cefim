@@ -61,18 +61,31 @@
     </div>
 
     <div class="Container">
+      <input type="radio" id="Code_check" class ="Code_check" name="cheking" checked=checked/>
+      <input type="radio" id="Warhammer_check" class ="Warhammer_check" name="cheking"/>
+      <input type="radio" id="Nba_check" class ="Nba_check" name="cheking"/>
+
       <ul class="tabs">
-        <li><a href="#Code">Code</a></li>
-        <li><a href="#Warhammer">Warhammer</a></li>
-        <li><a href="#Nba">Nba</a></li>
+        <li id="Code_onglet"><label for="Code_check">Code</label></li>
+        <li id="Warhammer_onglet"><label for="Warhammer_check">Warhammer</label></li>
+        <li id="Nba_onglet"><label for="Nba_check">Nba</label></li>
       </ul>
-      <div class="tabs-contents">
-        <p class="tab-content" id="Code">
+
+      <div id"Code" class="Content">
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <p class="tab-content" id="Warhammer">
+
+      </div>
+
+      <div id ="Warhammer" class="Content">
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+
+      </div>
+
+      <div id="Nba" class="Content">
         <p class="tab-content" id="Nba">
 
 
@@ -118,8 +131,7 @@
         </p>
       </div>
 
-    </div>
-
+      </div>
 
   </body>
 </html>
