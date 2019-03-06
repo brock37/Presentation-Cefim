@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+/************************
+******HEADER*************
+************************/
+
 header{
   height: 100px;
   background: #00A6FF;
@@ -32,7 +36,9 @@ header a{
   transition: .7s;
 }
 
-
+/************************
+*****SCOIAL BAR*************
+************************/
 .Social{
   float: right;
   position: sticky;
@@ -56,6 +62,9 @@ header a{
   transition: 1s;
 }
 
+/************************
+*****Container/Content***
+************************/
 input[type=radio]{
    display:none;
 }
