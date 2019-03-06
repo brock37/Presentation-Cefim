@@ -41,21 +41,19 @@ header a{
 ************************/
 .Social{
   float: right;
-  position: sticky;
-  top: 120px;
-  margin-right: 10px;
-  padding: 5px;
+  position: fixed;
+  top: 220px;
+  right: 15px;
+  transform: translate(0, -50%);
+  padding: 15px;
   background: #00A6FF;
   border-radius: 10px;
   transition: .7s;
   z-index: 999;
 }
 
-.Social li{
-  list-style-type: none;
-}
-
 .Social a{
+  display: block;
   font-size: 46px;
   text-decoration: none;
   color: #fff;
