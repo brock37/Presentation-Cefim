@@ -138,11 +138,27 @@ article{
 }
 
 /************************
+*****PATH TAB************
+************************/
+figure{
+  float: left;
+
+}
+
+#Photo{
+  border: 2px #fff dashed;
+  border-radius: 5px;
+  background-color: #bdbdbd;
+  padding: 5px;
+}
+
+/************************
 *****STUDIES TAB*********
 ************************/
 /*.Content li{
   margin-left: 20px;
 }*/
+
 
 
 /************************
