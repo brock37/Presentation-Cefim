@@ -46,7 +46,10 @@
             </p>
             <p>
               Toujours interesser par la création, j'envisage aujourd'hui une reconversion avec
-              pour objectif de devenir devellopeur indépendant.
+              pour objectif de devenir devellopeur indépendant. Car Père de 2 enfants j'aspire a passer
+              plus de temps avec eux, etre présent pour les emmenée ou aller les cherchez a l'école.
+              Mon projet je pense me permetterais d'allier une carriere professionnelle et une vie de
+              famille comme je le souhaite.
             </p>
 
           </article>
@@ -84,13 +87,14 @@
       <input type="radio" id="Code_check" class ="Code_check" name="second_tab" checked=checked/>
       <label for="Code_check">Code</label>
       <input type="radio" id="Warhammer_check" class ="Warhammer_check" name="second_tab"/>
-      <label for="Warhammer_check">Warhammer</label>
+      <label for="Warhammer_check">Warhammer 40k</label>
       <!-- <input type="radio" id="Nba_check" class ="Nba_check" name="second_tab"/>
       <label for="Nba_check">Nba</label>-->
 
 
       <div id="Code" class="Content">
         <article>
+          <h2>Le code et moi:</h2>
           <p>
             J'ai commencé a m'interesser a l'informatique a l'age de 15 ans,
             cela a commencé par la découverte de l'OS ubuntu, j'ai ensuite migrer
@@ -112,6 +116,63 @@
           <p>
             Vous trouverez sur mon <a href="https://github.com/brock37">github</a> plusieurs projets en cours d'autre plus ou moins abandonné par perte d'interet ou par manque de temps a y consacré
           </p>
+          <h2>Quelque projet presonnel:</h2>
+
+
+          <div class="Code_projet">
+            <h3>Black Jack</h3>
+            <figure>
+              <img src="img/BlackJack.png" alt="screenshot du programme BlackJack">
+            </figure>
+              <p>L'un de mes projets les plus avancé et le jeux du black jack. Celui ci a été dévelloper
+              en C++ a l'aide de la librairie SDL puis il fut porter sur la librairie SFML.</p>
+              <p>Revtouver le code source du projet sur gitHub <a href="https://github.com/brock37/BlackJack">Black Jack</a></p>
+              <h4 title="Definition Wikipédia" >Principe du jeux:</h4>
+              <p>La partie oppose tous les joueurs contre la banque. Le but est de battre
+                 le croupier sans dépasser 21. Dès qu'un joueur fait plus que 21,
+                 on dit qu'il « saute » ou qu'il « crève » et il perd sa mise initiale.<br>
+                 Au début de la partie le croupier distribue une carte face visible à
+                 chaque joueur et tire une carte face visible également pour lui.
+                 Il tire ensuite pour chacun une seconde carte face visible et tire
+                 une seconde carte face cachée pour lui .
+                 Puis il demande au joueur de la table l'option qu'il désire choisir.
+                 Si le joueur veut une carte, il doit l'annoncer en disant « Carte ! ».
+                 Le joueur peut demander autant de cartes qu'il le souhaite pour approcher
+                 la valeur sans la dépasser. Si après le tirage d'une carte, il a dépassé 21,
+                 il perd sa mise.
+               </p>
+              <h5>Valeur des cartes:</h5>
+              <ul>
+               <li>de 2 à 9 → valeur nominale de la carte</li>
+               <li>chaque figure + le 10 surnommées "bûche" → 10 points</li>
+               <li>l'As → 1 ou 11 (au choix)</li>
+              </ul>
+
+              <h4>Axe d'amelioration du projet</h4>
+              <p>Pour ameliorer ce projet quelque point sont encore a modifier telle que
+              L'ajout de plusieurs joueurs, améliorer l'IA du croupier qui actuellement
+              ne vise qu'a dépasser les points du joueur alors qu'en casino celui-ci essaie de viser
+              entre 17 et 21 points. Dautre régles tels que <em>L'assurance</em>, <em>Le split</em>, <em>doubler</em></p>
+          </div>
+          <hr>
+          <div class="Code_projet">
+            <h3>Simple Chrono</h3>
+            <figure>
+              <img src="img/SimpleChrono.png" alt="screenshot du programme SimpleChrono">
+            </figure>
+            <p>Projet simpliste pemettant d'emmetre un son lors de l'écoulement complet
+            du temps programmer (Très pratique pour ne pas rater son plat de patte).
+            </p>
+            <p>
+            Le Projet et develloper en C++ et SFML. Une version Bash existe aussi mais moins
+            pratique car pas de son émis en fin de chrono.
+            </p>
+          </div>
+          <hr>
+          <div class="Code_projet">
+            <h3>Bejeweld</h3>
+          </div>
+
         </article>
 
       </div>
@@ -121,6 +182,7 @@
           <figure>
             <img src="img/ban_warhammer.jpg" alt="Kill team de guerrier de plusieurs faction" id="banniere_warhammer">
           </figure>
+          <h2>Présentation</h2>
           <p>
             Warhammer 40k est un jeux de figurine développer par Games Workshop.
             Le jeux se citue an l'an 40 mille, et permet de représenter des battailes
@@ -136,10 +198,20 @@
               <li>Batailles</li>
             </ul>
           </p>
+          <h2>Association</h2>
           <p>
           Pour profiter pleinement de ce hobby, je fais partie de l'association
           du <a href="http://www.lemaelstrom.com/">Maelstrom Tourangeau</a> qui regroupe des joueurs de differents <abbr title="Jeu de simulation d'un conflit armé.">wargame</abbr>.
           Celle ci nous permet de nous retrouver 2 fois par semaine et facilite l'organisation des parties amicales et de difeerents tournoi.
+          </p>
+          <h2>Comment joue-t-on?</h2>
+          <figure>
+            <img src="img/game.jpg" alt="table Warahmmer40k">
+          </figure>
+          <p>
+            Le déroulement d'une partie ce fais au tour par tour chaque joueur déplace c'est figurine,
+            tir, puis combat au corps a corps.<br>
+            La victoire est déterminé par un nombre de point gagné en remplissant des objectifs.
           </p>
         </article>
 

@@ -166,6 +166,16 @@ article{
 /************************
 *****Code TAB************
 ************************/
+#Code figure{
+  float: right;
+  margin: 1px;
+}
+
+#Code .Code_projet{
+
+  min-height: 250px;
+  margin-bottom: 20px;
+}
 
 /************************
 *****Warhammer TAB********
