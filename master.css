@@ -76,19 +76,11 @@ input[type=radio]{
   display: block;
   max-width: 95%;
   min-height: auto;
-  /*margin: 50px 100px 100px 25px;*/
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 100px;
   margin-bottom: 100px;
 }
-
-/*.Container .tabs{
-  position: relative;
-  left: -40px;
-  margin-bottom: 0;
-  background: #000;
-}*/
 
 .Container label {
   display: block;
@@ -107,14 +99,6 @@ input[type=radio]{
   cursor: pointer;
   transition: .7s;
 }
-
-/*.Bar{
-  margin: 0;
-  width: 100%;
-  height: 20px;
-  background:rgba(0, 166, 255);
-  border-top-right-radius: 20px;
-}*/
 
 .Content{
   height: auto;
@@ -156,12 +140,6 @@ article{
   padding: 5px;
 }
 
-/************************
-*****STUDIES TAB*********
-************************/
-/*.Content li{
-  margin-left: 20px;
-}*/
 
 /************************
 *****Experience TAB******
