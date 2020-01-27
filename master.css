@@ -129,6 +129,10 @@ input[type=radio]{
   display: none;
 }
 
+article h1{
+  text-decoration: underline;
+}
+
 article{
   height: auto;
   width: auto;
