@@ -11,7 +11,7 @@ html body{
 
 header{
   height: 100px;
-  background: #00A6FF;
+  background: #8CD2E1;
   padding: 0 20px;
   color: #fff;
 }
@@ -49,7 +49,7 @@ header a{
   right: 15px;
   transform: translate(0, -50%);
   padding: 15px;
-  background: #00A6FF;
+  background: #8CD2E1;
   border-radius: 10px;
   transition: .7s;
   z-index: 999;
@@ -73,7 +73,7 @@ header a{
   right: 15px;
   transform: translate(0, -50%);
   padding: 15px;
-  background: #00A6FF;
+  background: #8CD2E1;
   border-radius: 10px;
   transition: .7s;
   z-index: 1000;
@@ -118,7 +118,7 @@ input[type=radio]{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   text-transform: uppercase;
-  color: #00A6FF;
+  color: #8CD2E1;
   text-align: center;
   cursor: pointer;
   transition: .7s;
@@ -128,7 +128,7 @@ input[type=radio]{
   height: auto;
   width: 100%;
   overflow: auto;
-  background: rgba(0, 166, 255);
+  background: #8CD2E1;
   padding: 0;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -227,6 +227,6 @@ header a:hover,
 #Code_check:checked + label,
 #Warhammer_check:checked + label,
 #Nba_check:checked + label{
-  background: rgba(0, 166, 255);
+  background: #8CD2E1;
   color: #fff;
 }
